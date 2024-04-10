@@ -1,0 +1,129 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1090;
+  background-color: rgba(0, 0, 0, 0.611);
+}
+
+/* Navbar */
+/* Small Device */
+@media (max-width: 576px) {
+  .menu {
+    position: absolute;
+    top: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 2px;
+    background-color: #222;
+    color: #fff;
+  }
+}
+/* Medium Device */
+@media (min-width: 768px) {
+  .menu {
+    position: absolute;
+    top: 0;
+    /* right: 1em; */
+    width: 90% !important;
+    height: auto !important;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+}
+/* Large Device */
+@media (min-width: 992px) {
+  .menu {
+    position: absolute;
+    top: 0 !important;
+    right: 1em;
+    width: 16% !important;
+    height: auto !important;
+    border-radius: 2px;
+    background-color: #222;
+    color: #fff;
+  }
+}
+
+/* Game */
+@media (min-width: 992px) {
+  .win-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: auto;
+    z-index: 1100 !important;
+    overflow: auto;
+    background-color: #3ddc97;
+    border-radius: 4px;
+  }
+  .lose-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    z-index: 1100 !important;
+    overflow: auto;
+    background-color: #de354c;
+    border-radius: 4px;
+    color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .win-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    z-index: 1100 !important;
+    overflow: auto;
+    background-color: #3ddc97;
+    border-radius: 4px;
+  }
+  .lose-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    z-index: 1100 !important;
+    overflow: auto;
+    background-color: #de354c;
+    border-radius: 4px;
+    color: #fff;
+  }
+}
+
+@media (max-width: 576px) {
+  .win-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+    height: auto;
+    z-index: 1100 !important;
+    overflow: auto;
+    background-color: #3ddc97;
+    border-radius: 4px;
+  }
+  .lose-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+    z-index: 1100 !important;
+    overflow: auto;
+    background-color: #de354c;
+    border-radius: 4px;
+    color: #fff;
+  }
+}
