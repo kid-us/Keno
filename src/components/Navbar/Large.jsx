@@ -16,9 +16,9 @@ const Large = () => {
 
             <div className="col-lg-11 col-md-10 col-9 fw-semibold">
               <div className="row justify-content-end text-end text-white">
-                <div className="col-2 pt-2">
+                {/* <div className="col-2 pt-2">
                   <p className="bi-wallet font-poppins"> &nbsp; 340 Br</p>
-                </div>
+                </div> */}
                 <div className="col-2 pt-2">
                   <p
                     onClick={() => setMenu(!menu)}

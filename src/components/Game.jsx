@@ -17,7 +17,7 @@ const Game = () => {
   const [loseModal, setLoseModal] = useState(false);
   const [winAmount, setWinAmount] = useState();
 
-  const odds = [1.5, 2.5, 3.5, 5.5, 7.5, 10.5, 15.5, 28, 100, 150];
+  const odds = [1.5, 2.5, 3.5, 5.5, 7.5, 10.5, 20.5, 28, 100, 150];
   const count = useRef(0);
 
   useEffect(() => {
@@ -143,7 +143,7 @@ const Game = () => {
         }
 
         count.current = i + 1;
-      }, 2000 * i);
+      }, 500 * i);
     }
   };
 
@@ -198,7 +198,7 @@ const Game = () => {
           </div>
         </div>
         <div className="col-lg-4 col-md-3 col-12">
-          <p className="text-white">{count.current}</p>
+          {/* <p className="text-white">{count.current}</p> */}
           {/* Button */}
           <div className="row justify-content-center">
             <div className="col-6">

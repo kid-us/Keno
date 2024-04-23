@@ -7,7 +7,7 @@ const LargeMenu = () => {
       <div className="position-relative animate__animated animate__bounceInDown shadow-lg">
         <div className="menu p-3 fw-semibold">
           <p className="bi-person-fill font-poppins fs-5 text-info">
-            &nbsp; Ermias
+            &nbsp; Lorem
           </p>
           <hr />
           <div className="mt-4">
